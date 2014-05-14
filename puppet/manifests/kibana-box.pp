@@ -30,7 +30,7 @@ class { 'install_prereqs':
 
 
 class { 'kibana':
-  elasticsearch_url  => 'http://10.211.55.11:9200',
+  elasticsearch_url  => "http://10.211.55.11:9200",
   webserver => 'apache',
   install_url => 'https://download.elasticsearch.org/kibana/kibana/kibana-3.0.1.zip',
 }
